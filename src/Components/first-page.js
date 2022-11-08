@@ -59,7 +59,7 @@ function Page1() {
           <div className="Header">
             <div className="text">
               <div style={signedIn ? {} : { display: "none" }}>
-                              Welcome, <div>{user.displayName }. You are signed in!</div>
+                              Welcome, <div>{user.displayName}. You are signed in!</div>
               </div>
               <h1>Worlds' Biggest Email Marketing Agency</h1>
               <p>
