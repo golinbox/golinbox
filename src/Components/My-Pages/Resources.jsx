@@ -1,6 +1,5 @@
-import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 import Navigation from "../Navigation/nav";
-import User from "../Pagination/user";
 
 function Resources() {
   return (
@@ -8,12 +7,33 @@ function Resources() {
       <section className="navigation">
         <Navigation />
       </section>
-      <section className="my-data">
-        <User />
-      </section>
-      <Footer />
+      <div className="message">
+        <div className="page-content">
+          <h1>You arrived here too soon!</h1>
+          <p>Try checking back in few weeks.</p>
+          <Link to="/">Back To Home</Link>
+        </div>
+      </div>
     </section>
   );
 }
 
 export default Resources;
+
+// import Navigation from "../Navigation/nav";
+// import User from "../Pagination/user";
+
+// function Resources() {
+//   return (
+//     <section className="container">
+//       <section className="navigation">
+//         <Navigation />
+//       </section>
+//       <section className="my-data">
+//         <User />
+//       </section>
+//     </section>
+//   );
+// }
+
+// export default Resources;

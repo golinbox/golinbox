@@ -1,4 +1,3 @@
-import Footer from "../Footer/Footer";
 import Navigation from "../Navigation/nav";
 import { Link } from "react-router-dom";
 
@@ -15,7 +14,6 @@ function Blog() {
           <Link to="/">Back To Home</Link>
         </div>
       </div>
-      <Footer />
     </section>
   );
 }

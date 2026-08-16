@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Footer from "../Footer/Footer";
 import Navigation from "../Navigation/nav";
 
 function Services() {
@@ -15,7 +14,6 @@ function Services() {
           <Link to="/">Back To Home</Link>
         </div>
       </div>
-      <Footer />
     </section>
   );
 }

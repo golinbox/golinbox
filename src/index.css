@@ -687,22 +687,24 @@ code {
 }
 
 /* Pages not ready*/
+
 .message {
+  background-color: #060407;
+  position: relative;
   max-width: 500px;
   width: 100%;
-  margin: 0px auto;
-  text-align: center;
-}
-.message {
-  padding-top: 180px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  position: absolute;
+  left: 35%;
 }
 .page-content {
   margin-top: 0%;
   color: #b9f2fc;
   border: 1px solid #190e1d;
-  margin-bottom: 190px;
   padding-bottom: 40px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .page-content h1 {
