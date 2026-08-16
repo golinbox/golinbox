@@ -8,6 +8,6 @@ export default defineConfig({
     open: true,
   },
   build: {
-    outDir: "build", // keeps the same build folder name as CRA
+    outDir: "dist", // ← use the standard Vite name
   },
 });
