@@ -206,7 +206,7 @@ function Header() {
             </div>
             <div class="rate-convert">
               <img
-                src={"/Project Image/Home Images/Profile.PNG"}
+                src={"/Project Image/Profile.png"}
                 alt=""
                 width="100%"
               />
